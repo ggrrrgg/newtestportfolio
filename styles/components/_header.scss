@@ -1,0 +1,55 @@
+@import "../defaults/color"
+@import "../components/utils";
+
+
+header {
+    @include background-stuff();
+
+    .logo-name {
+         @media screen and (max-width: 600px) {
+            margin-bottom: 24px; 
+         }
+       
+        .name {
+            font-size: 28px;
+            .coder-text {
+                color: $secondary-color;
+            }
+            .academy-text {
+                color: $primary-color;
+            }
+        }
+    }
+
+    .nav-items {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+
+        a {
+            text-decoration: none;
+            color: #498ccf;
+
+        }
+    }
+}
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        .logo-name {
+            // margin-bottom: 0; mobile view
+
+            .name {
+                margin-bottom: 0;
+            }
+        }
+        .nav-items {
+            width: 50%;
+        }
+    }
+    
+}
