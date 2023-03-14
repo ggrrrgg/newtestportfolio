@@ -1,0 +1,21 @@
+@import "../defaults/color";
+
+main {
+    display: flex;
+
+    article {
+        border: 1px solid red;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 20px 0px;
+        padding: 24px;
+        text-align: center;
+
+        section {
+            .service-image {
+                width: 350px;
+                border-radius: 16px;
+            }
+    }
+}
+}

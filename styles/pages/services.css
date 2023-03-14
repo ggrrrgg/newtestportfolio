@@ -1,0 +1,15 @@
+main {
+  display: flex;
+}
+main article {
+  border: 1px solid red;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px 0px;
+  padding: 24px;
+  text-align: center;
+}
+main article section .service-image {
+  width: 350px;
+  border-radius: 16px;
+}/*# sourceMappingURL=services.css.map */
