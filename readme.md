@@ -79,3 +79,6 @@ This will contain the styling of individual components which are as following at
 
   ### Contact
   Contact page can be used to conact company via form
+
+  ### About 
+  Its About us

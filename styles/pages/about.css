@@ -79,17 +79,21 @@ body {
 }
 
 main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 100 px 50px 1fr;
+  margin-bottom: 50px;
 }
-main article {
-  border: 1px solid red;
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 20px 0px;
-  padding: 24px;
+main .heading {
+  background-color: #1c3c5c;
+  color: #45a7c5;
+  grid-column: 1/-1;
+  grid-row: 1/3;
   text-align: center;
 }
-main article section .service-image {
-  width: 350px;
-  border-radius: 16px;
-}/*# sourceMappingURL=services.css.map */
+main .description {
+  border: 1px solid red;
+  background-color: white;
+  grid-column: 2/3;
+  grid-row: 2/-1;
+}/*# sourceMappingURL=about.css.map */
