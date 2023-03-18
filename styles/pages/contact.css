@@ -1,0 +1,60 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #45a7c5;
+}
+
+form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+form .form-elements label {
+  font-size: 1.2rem;
+}
+form .form-elements .form-input {
+  border: 1px solid #1c3c5c;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.2rem;
+}
+form .form-elements .form-input:not(.form-textarea) {
+  height: 32px;
+}
+form .form-elements .form-input.form-textarea {
+  resize: none;
+}
+form .form-elements .form-input:focus {
+  box-shadow: 0 0 8px 3px #1c3c5c;
+}
+form .btn-div {
+  text-align: center;
+}
+form .btn-div #submit {
+  height: 40px;
+  min-width: 120px;
+  background-color: #1c3c5c;
+  color: #45a7c5;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+form .btn-div #submit:hover {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 600px) {
+  main form .form-elements {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main form .form-elements .form-input {
+    width: 70%;
+  }
+}/*# sourceMappingURL=contact.css.map */

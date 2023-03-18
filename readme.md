@@ -76,3 +76,6 @@ This will contain the styling of individual components which are as following at
 
   ### Defaults
   This will contain the default variables such as colors, breakpoints, etc.
+
+  ### Contact
+  Contact page can be used to conact company via form
